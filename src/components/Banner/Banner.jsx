@@ -3,7 +3,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Banner = () => {
   return (
-    <div className="bg-base-200">
+    <div className="bg-base-200 pt-[65px]">
       <div className="max-w-7xl mx-auto px-5 flex flex-col-reverse md:flex-row justify-center items-center md:bg-[url(/banner-bg.png)] bg-no-repeat md:bg-[position:calc(100%-70px)_bottom]">
         <div className="md:w-1/2">
           <div className="flex my-10">
