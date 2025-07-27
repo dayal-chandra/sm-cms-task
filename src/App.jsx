@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner";
 import CarouselSection from "./components/CarouselSection/CarouselSection";
 import Collection from "./components/Collection/Collection";
 import Navbar from "./components/Navbar/Navbar";
+import PopularProducts from "./components/PopularProducts/PopularProducts";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner></Banner>
       <Collection></Collection>
       <CarouselSection></CarouselSection>
+      <PopularProducts></PopularProducts>
     </>
   );
 }
