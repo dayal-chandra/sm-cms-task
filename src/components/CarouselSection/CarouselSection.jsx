@@ -65,13 +65,13 @@ const CarouselSection = () => {
         </div>
 
         <div className="bg-[#27282C] lg:w-1/2 w-full h-[450px] flex flex-col justify-center items-start p-10 rounded">
-          <p className="text-[#FF9D65] pb-4">Ready to Shop</p>
-          <h1 className="text-white text-[40px] font-semibold pb-5 leading-tight">
+          <p className="roboto-font text-[#FF9D65] pb-4">Ready to Shop</p>
+          <h1 className="roboto-font text-white text-[40px] font-semibold pb-5 leading-tight">
             Revolutionizing Your Skin's <br />
             Journey to Radiance
           </h1>
-          <button className="py-2 px-6 bg-white rounded flex justify-center items-center gap-2 font-semibold text-black hover:bg-gray-100 transition">
-            Shop Now <BsArrowRight size={20} />
+          <button className="inter-font py-2 px-6 bg-white rounded flex justify-center items-center gap-2 font-semibold text-black hover:bg-gray-100 transition">
+            SHOP NOW <BsArrowRight size={20} />
           </button>
         </div>
       </div>

@@ -8,17 +8,17 @@ const Banner = () => {
         <div className="md:w-1/2">
           <div className="flex my-10">
             <div className="relative">
-              <div className="absolute w-10 h-10 bg-pink-200 rounded-full left-0"></div>
-              <div className="absolute w-10 h-10 bg-[#CE4E61] rounded-full left-6"></div>
+              <div className="absolute w-12 h-12 bg-pink-200 rounded-full left-0"></div>
+              <div className="absolute w-12 h-12 bg-[#CE4E61] rounded-full left-5"></div>
             </div>
 
-            <div className="leading-tight z-10 ml-12">
+            <div className="leading-tight z-10 ml-12 maven-font text-[18px] ">
               <p>New Spring 2025</p>
               <p>Collections</p>
             </div>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-semibold block md:leading-20">
+          <h1 className="maven-font text-5xl md:text-7xl font-semibold block md:leading-20">
             Fashion That <br />
             Feels As Good As <br />
             It{" "}
@@ -34,12 +34,12 @@ const Banner = () => {
             </span>
           </h1>
 
-          <p className="text-[16px] font-normal py-6">
+          <p className="montserrat text-[16px] font-normal py-6">
             Streetwear-inspired and flavor-packed, every drop celebrates
             individuality, freedom, and effortless style—where comfort meets
             cultural edge
           </p>
-          <button className="flex gap-3 py-3 px-6 text-white bg-[#CE4E61]">
+          <button className="montserrat flex gap-3 py-3 px-6 text-white bg-[#CE4E61]">
             Get Started <MdOutlineArrowOutward size={25} />
           </button>
         </div>
@@ -50,7 +50,7 @@ const Banner = () => {
             alt=""
           />
 
-          <div className="absolute top-5 right-0 w-[210px] h-[100px] flex flex-col items-start">
+          <div className="absolute top-5 right-0 w-[210px] h-[100px] flex flex-col items-start roboto-font">
             <div className="text-[#CE4E61] text-6xl -mb-3">&#10077;</div>
             <p className="mb-2 text-[9px]">
               I love that it's made with gentle ingredients — no irritation at

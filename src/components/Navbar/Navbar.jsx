@@ -28,7 +28,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="drawer drawer-end  fixed top-0 z-50">
+    <div className="drawer drawer-end  fixed top-0 z-50 roboto-font">
       <input id="nav-drawer" type="checkbox" className="drawer-toggle" />
 
       <div className="drawer-content">

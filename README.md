@@ -1,12 +1,44 @@
-# React + Vite
+# 🌟 Velvet Glow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Velvet Glow is a sleek and stylish frontend web project inspired by modern beauty and lifestyle eCommerce websites. Built using **HTML, Tailwind CSS, and JavaScript/React**, the project replicates a Figma design and focuses on responsive layouts, clean visuals, and pixel-perfect UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live URL
 
-## Expanding the ESLint configuration
+[🔗 View Project Live](https://your-deployment-url.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Purpose
+
+This project was developed as a **technical task for the Frontend Developer position at SM Technology**, showcasing skills in layout replication, Tailwind styling, and responsiveness without relying on backend functionality.
+
+---
+
+## ✨ Key Features
+
+- Fully responsive layout
+- Clean and modern design
+- Dynamic grid sections
+- Social profile redirection
+- Tailwind CSS utility-first styling
+- Optimized for performance and readability
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **Tailwind CSS**
+- **JavaScript / React**
+
+---
+
+## 📦 NPM Packages Used
+
+- `react-icons`
+- `tailwind-css`
+- `daisy-ui`
+
+---

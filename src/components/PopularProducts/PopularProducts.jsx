@@ -34,31 +34,34 @@ const products = [
 const PopularProducts = () => {
   return (
     <section className="py-20 px-5 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold mb-10 text-center">
+      <h2 className="inter-font text-3xl font-bold mb-10 text-center">
         Our Popular Product
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 justify-center items-center">
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 place-items-center">
         {products.map((product, idx) => (
           <div key={idx}>
-            <div className="bg-base-300 max-w-[300px] h-[350px] rounded relative">
+            <div className="bg-base-300 w-[241px] lg:max-w-[300px] rounded relative">
               {product.discount && (
                 <div className="absolute top-2 left-2 bg-red-600 text-white text-xs px-2 py-1 rounded">
                   50%
                 </div>
               )}
               <img
-                className="p-5 max-w-[250px] h-[300px] mx-auto my-auto object-cover"
+                className="p-5 max-w-[250px] h-[300px] mx-auto object-cover"
                 src={product.image}
                 alt={product.name}
               />
             </div>
             <div>
-              <p className="text-gray-500 py-3 text-[14px] font-normal">
+              <p className="dm-font text-gray-500 py-2 text-[14px] font-normal">
                 Better Wood and Home
               </p>
-              <h1 className="text-[20px] font-semibold">{product.name}</h1>
-              <p className="text-red-400 text-sm pb-5">
-                Price:${product.price}
+              <h1 className="arsenal-font text-[20px] font-semibold">
+                {product.name}
+              </h1>
+              <p className="dm-font text-red-400 text-sm pb-5">
+                Price: ${product.price}
               </p>
             </div>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Collection = () => {
   return (
-    <div className="text-center py-20 px-5">
+    <div className="roboto-font text-center py-20 px-5">
       <h2 className="text-3xl font-bold mb-10">Browse by Collection</h2>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5 max-w-3xl mx-auto">

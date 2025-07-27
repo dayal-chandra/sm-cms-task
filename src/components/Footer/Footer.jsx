@@ -8,16 +8,16 @@ const Footer = () => {
           <div className=" md:w-1/2 flex flex-col justify-start items-start">
             <div className="flex justify-center items-center gap-2">
               <img src="/footer-logo.png" alt="" />
-              <h1 className="text-3xl font-bold">Velvet Glow</h1>
+              <h1 className="roboto-font text-3xl font-bold">Velvet Glow</h1>
             </div>
-            <p className="text-[12px] pt-5 md:pr-50">
+            <p className="dm-font text-[12px] pt-5 md:pr-50">
               At Northbound we specialize in aligning people strategies with
               business goals. Whether you're growing, restructuring, or adapting
               to new challenges, we help ensure your organization has the right
               talent, in the right place, at the right time.
             </p>
           </div>
-          <div className="md:w-1/2 flex flex-col md:flex-row justify-between items-start gap-8">
+          <div className="jost-font md:w-1/2 flex flex-col md:flex-row justify-between items-start gap-8">
             <div>
               <h1 className="text-[20px] font-semibold pb-6">Services</h1>
               <ul className="text-[12px] space-y-2">
@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="border border-white w-full my-5" />
-        <p className="py-6 text-[14px]">
+        <p className="jost-font py-6 text-[14px]">
           2024 Copyright Bendertm I All Right Reserved
         </p>
       </div>
