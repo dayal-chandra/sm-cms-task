@@ -12,7 +12,7 @@ const Banner = () => {
               <div className="absolute w-10 h-10 bg-[#CE4E61] rounded-full left-6"></div>
             </div>
 
-            <div className="leading-tight text-black z-10 ml-12">
+            <div className="leading-tight z-10 ml-12">
               <p>New Spring 2025</p>
               <p>Collections</p>
             </div>
@@ -34,7 +34,7 @@ const Banner = () => {
             </span>
           </h1>
 
-          <p className="text-[16px] font-normal py-6 text-[#161616]">
+          <p className="text-[16px] font-normal py-6">
             Streetwear-inspired and flavor-packed, every drop celebrates
             individuality, freedom, and effortless style—where comfort meets
             cultural edge
@@ -50,7 +50,7 @@ const Banner = () => {
             alt=""
           />
 
-          <div className="absolute top-5 right-0 w-[210px] h-[100px] text-gray-700 flex flex-col items-start">
+          <div className="absolute top-5 right-0 w-[210px] h-[100px] flex flex-col items-start">
             <div className="text-[#CE4E61] text-6xl -mb-3">&#10077;</div>
             <p className="mb-2 text-[9px]">
               I love that it's made with gentle ingredients — no irritation at
