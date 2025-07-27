@@ -1,11 +1,10 @@
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <h1>
-        Technical Task for Frontend Developer Interview For CMS - SM Technology
-      </h1>
+      <Navbar></Navbar>
     </>
   );
 }
