@@ -6,7 +6,7 @@ Velvet Glow is a sleek and stylish frontend web project inspired by modern beaut
 
 ## 🚀 Live URL
 
-[🔗 View Project Live](https://your-deployment-url.com)
+[🔗 View Project Live](https://velvet-glow.netlify.app/)
 
 ---
 
