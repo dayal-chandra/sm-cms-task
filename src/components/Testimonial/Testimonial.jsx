@@ -17,7 +17,9 @@ const Testimonial = () => {
                   alt="profile picture"
                 />
                 <div>
-                  <h3 className="font-semibold">Afiya Jaman Sinigdha</h3>
+                  <h3 className="font-semibold text-black">
+                    Afiya Jaman Sinigdha
+                  </h3>
                   <p className="text-[12px] text-gray-500">Designer</p>
                 </div>
               </div>
@@ -36,7 +38,7 @@ const Testimonial = () => {
                   alt="profile picture"
                 />
                 <div>
-                  <h3 className="font-semibold">Riyan Hasan Rimu</h3>
+                  <h3 className="font-semibold text-black">Riyan Hasan Rimu</h3>
                   <p className="text-[12px] text-gray-500">Designer</p>
                 </div>
               </div>

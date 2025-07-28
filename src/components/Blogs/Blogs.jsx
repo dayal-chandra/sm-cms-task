@@ -38,7 +38,7 @@ const Blogs = () => {
             potensial. Wheter you are seeking inspiration advice or the per fect
             product to elevate your routine.
           </p>
-          <button className="inter-font py-2 px-8 text-black border border-[#CE4E61] rounded">
+          <button className="inter-font py-2 px-8 border border-[#CE4E61] rounded">
             Read More
           </button>
         </div>
@@ -59,7 +59,7 @@ const Blogs = () => {
             potensial. Wheter you are seeking inspiration advice or the per fect
             product to elevate your routine.
           </p>
-          <button className="inter-font py-2 px-8 text-black border border-[#CE4E61] rounded">
+          <button className="inter-font py-2 px-8 border border-[#CE4E61] rounded">
             Read More
           </button>
         </div>
